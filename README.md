@@ -1,6 +1,10 @@
 <p align="center">
 <a href="https://pelletfi.com">
-<img src="./pellet_transparent.png" alt="pellet.fi" width="180" height="auto" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./pellet_logo_dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./pellet_logo_light.png" />
+  <img src="./pellet_logo_light.png" alt="pellet.fi" width="180" height="auto" />
+</picture>
 </a>
 </p>
 
